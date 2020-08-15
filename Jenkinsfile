@@ -8,6 +8,7 @@ stage('Build') {
                     sh '''
                     echo "Multiline shell script works too"
                     ls -lah
+                    ''' 
                     }
                 }
         }
